@@ -1,24 +1,24 @@
 ﻿.logo-image {
-    width: 270px;
+    width: 190px;
 }
 
 .header {
-    background-color: #003084;
+    background-color: #F9E5A9;
 }
 
 .footer {
-    background-color: #7FC9FF;
+    background-color: #F9E5A9;
 }
 
 .foreground {
-    color: #003084;
+    color: #996B00;
 }
 
 .connected-peers {
-    color: white;
+    color: #996B00;
 }
 
 .start-all-clocks-area button {
     color: white;
-    background-color: red;
+    background-color: #E4A000;
 }

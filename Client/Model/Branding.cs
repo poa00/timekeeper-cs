@@ -13,17 +13,21 @@
     /// </summary>
     public class Branding
     {
-        public const string AboutPageTitle = "Timekeeper: About";
+        public const string AboutPageTitle = "Channel9: About";
         public const bool AllowSessionSelection = true;
         public const bool CanEditGuestName = true;
-        public const string ConfigurePageTitle = "Timekeeper: Configure";
-        public const string GuestPageTitle = "Timekeeper Guest Page";
-        public const string LoginPageTitle = "Timekeeper: Login";
-        public const string MainPageTitle = "Timekeeper";
-        public const string SessionPageTitle = "Timekeeper: Sessions";
-        public const string WindowTitle = "Timekeeper";
-        
+        public const string ConfigurePageTitle = "Channel9: Configure";
+        public const string GuestPageTitle = "Channel9 Guest Page";
+        public const string LoginPageTitle = "Channel9: Login";
+        public const string MainPageTitle = "Channel9";
+        public const string SessionPageTitle = "Channel9: Sessions";
+        public const string WindowTitle = "Channel9";
+
+#if DEBUG
         public const bool MustAuthorize = false;
+#else
+        public const bool MustAuthorize = true;
+#endif
 
         public static string HeaderClass => "header";
 
