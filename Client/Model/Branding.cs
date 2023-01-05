@@ -16,12 +16,11 @@
         public const string AboutPageTitle = "Channel9: About";
         public const bool AllowSessionSelection = true;
         public const bool CanEditGuestName = true;
+        public const string ChatsPageTitle = "Channel9: Chats";
         public const string ConfigurePageTitle = "Channel9: Configure";
         public const string GuestPageTitle = "Channel9 Guest Page";
         public const string LoginPageTitle = "Channel9: Login";
         public const string MainPageTitle = "Channel9";
-        public const string SessionPageTitle = "Channel9: Sessions";
-        public const string WindowTitle = "Channel9";
 
 #if DEBUG
         public const bool MustAuthorize = false;
@@ -29,12 +28,16 @@
         public const bool MustAuthorize = true;
 #endif
 
-        public static string HeaderClass => "header";
+        public const string PollsPageTitle = "Channel9: Polls";
+        public const string SessionPageTitle = "Channel9: Sessions";
+        public const string WindowTitle = "Channel9";
 
-        public static string ImagePath => "images/header-logo.png";
+        public static string FooterClass => "footer";
 
         public static string ForegroundClass => "foreground";
 
-        public static string FooterClass => "footer";
+        public static string HeaderClass => "header";
+
+        public static string ImagePath => "images/header-logo.png";
     }
 }
